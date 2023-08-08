@@ -1,0 +1,181 @@
+*{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+}
+.logo-custom{
+height: 60px;
+width: 120px;
+}
+
+.img-custom{
+    background-image: url(./mountains2.png),linear-gradient(rgba(253,255,255,1), rgba(255,255,255,0)), url(./switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo{
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.bg-custom{
+    background-color: #ececec ;
+}
+
+.caption-custom{
+    font-size: x-large;
+    color: black;
+}
+
+.caption-custom::after{
+    content: close-quote;
+    color: darkred;
+    font-size: 70px;
+}
+
+.caption-custom::before{
+    content: open-quote;
+    color: darkred;
+    font-size: 70px;
+}
+
+.border-custom{
+    padding: 15px;
+    border-bottom: 5px solid darkred;
+    position: relative;
+}
+
+@media screen and (max-width:767px) {
+    .border-custom { 
+        margin-bottom: 30px;}
+    }
+
+.border-custom::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid darkred;
+    position: absolute;
+    top: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* left: 140px; */
+}
+
+/* @media screen and (max-width:767px) {
+    .border-custom::before{
+        content: '';
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: white;
+        border: 3px solid darkred;
+        position: absolute;
+        top: 45px;
+        left: 175px;
+    }
+} */
+
+
+.padding-custom{
+    padding-top: 100px;
+}
+
+.bgimg-5sect{
+    height: 500px;
+    background: url(trees2.png),#ececec;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+
+.bt-custom{
+    background-color: darkred;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 0%;
+}
+
+@media screen and (max-width:767px) {
+    .bt-custom{
+        content: '';
+        height: 70px;
+        width: 100px;
+    }
+}
+
+.bt-custom:hover{
+    color: white;
+}
+
+.h2-custom{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.border-timeline{
+    padding-left: 5px;
+    border-left: 3px solid darkred;
+    position: relative;
+}
+
+.border-timeline::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid darkred;
+    position: absolute;
+    top: 9px;
+    left: -10px;}
+
+    .bg-albero{
+        background-image: url(./single.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+    }
+
+    .h2-ourteam{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .iconimg-custom{
+        border-radius: 50%;
+        border: 1px solid darkred;
+        padding: 10px;
+    }
+
+    i{
+        padding: 0px 10px;
+    }
+
+    .h2-footer{
+        color: white;
+    }
+
+    .bg-footer{
+        background-color: darkred;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .h3-footer{
+        color: white;
+    }
